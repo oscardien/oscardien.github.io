@@ -30959,6 +30959,10 @@ voj-calendar full-calendar fullcalendar-wrapper .fc-view-container .fc-view tabl
   height: 100% !important;
 }
 
+voj-calendar full-calendar fullcalendar-wrapper .fc-view-container {
+  background-color: white;
+}
+
 voj-calendar full-calendar fullcalendar-wrapper .fc-view-container .fc-view table .fc-day-grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -31603,6 +31607,7 @@ voj-card .ribbon-label {
   text-align: center;
   padding-left: 40px;
   padding-right: 15px;
+  z-index: 1;
 }
 
 voj-card .ribbon-label:before {
@@ -31639,6 +31644,19 @@ voj-card .count-votes {
   top: 8px;
   left: 140px;
   font-size: 18px;
+}
+
+voj-card .typed {
+  background: #3f51b5;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 5% !important;
+  text-align: left !important;
+  margin-left: 0px !important;
+}
+
+voj-card .typed h2 {
+  color: #ffffff;
 }
 
 voj-form {
@@ -32651,6 +32669,10 @@ ion-app.platform-ios voj-page-header .test1 {
 
 voj-page-outlet {
   background-color: var(--voj-color-primary);
+}
+
+voj-page-outlet div.voj-full-height-content {
+  overflow: auto !important;
 }
 
 voj-rating ul {
@@ -33851,7 +33873,7 @@ page-availabilities-calendar .calender-container {
 }
 
 page-availabilities-calendar .calendar-wrapper {
-  height: 92%;
+  height: 94%;
 }
 
 page-availabilities-calendar .calendar-wrapper.pad {
@@ -34146,7 +34168,7 @@ page-my-offers-calendar .calender-container {
 }
 
 page-my-offers-calendar .calendar-wrapper {
-  height: 92%;
+  height: 94%;
 }
 
 page-my-offers-calendar .calendar-wrapper.pad {
@@ -34390,6 +34412,14 @@ page-offer-set-slots .calendar-wrapper {
 
 page-offer-set-slots .calendar-wrapper.mobile {
   height: 80%;
+}
+
+page-offer-set-slots .validate-button {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 page-offer-slot-parameters {
@@ -35135,7 +35165,7 @@ page-interviews-calendar .calender-container {
 }
 
 page-interviews-calendar .calendar-wrapper {
-  height: 92%;
+  height: 94%;
 }
 
 page-interviews-calendar .calendar-wrapper.pad {
@@ -35205,7 +35235,7 @@ page-missions-calendar .calender-container {
 }
 
 page-missions-calendar .calendar-wrapper {
-  height: 92%;
+  height: 94%;
 }
 
 page-missions-calendar .calendar-wrapper.pad {
@@ -35409,6 +35439,14 @@ timesheet .validate-button {
 new-password-page {
   overflow-y: auto;
   background-color: #ffffff;
+}
+
+page-oscar-dashboard-graphics th {
+  padding: 2px !important;
+}
+
+page-oscar-dashboard-graphics td {
+  padding: 2px !important;
 }
 
 page-oscar-prestation-calendar,
